@@ -39,7 +39,7 @@ jobs:
       tflint_version: latest 
 
     - name: Show version 
-      run-tflint --version
+      run: tflint --version
 
     - name: Init TFlint 
       run: tflint -init 
